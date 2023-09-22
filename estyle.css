@@ -1,0 +1,36 @@
+
+/* apliacaion de fuente con un selector de etiqueta */
+h1, h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside{
+    width: 196px;
+}
+
+/* aplicacion de un id como estilo*/
+#content {
+    display: flex;
+    width: 901px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* aplicacion de clases */
+.bg-color-green{
+    background-color: aquamarine;
+}
+
+.bg-color-red{
+    background-color: darksalmon;
+}
+
+.bg-color-blue{
+    background-color: deepskyblue;
+}
+
+.bg-color-pink{
+    background-color: lightpink;
+}
