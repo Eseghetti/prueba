@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Orbitron', sans-serif;;
+    font-style: italic;
 }
 
 body{
@@ -22,8 +25,29 @@ nav ul li a{
 }
 
 h1{
-    margin: 0;;
+    margin: 0;
+    font-weight: 900;
 }
+
+h2{
+    font-weight: 700;
+}
+
+p, a, li{
+    
+    font-weight: 400;
+}
+
+
+p, li{
+    font-size: 12px;
+}
+
+/* rem toma el valor de la raiz, la bese del proyecto */
+a{
+    font-size: 1.5em;
+}
+
 
 section{
     padding: 0 5%;
@@ -37,6 +61,28 @@ section{
     margin-left: 16px;
 }
 
+.float-right{
+    float: right;
+}
+
+
+/*  agregamos un borde exterrno ala imagen, sin cambiar el tamaño */
+.image-container{
+    border: 4px solid violet;
+    height: 300px;
+}
+
+.image{
+    border-width: 2px;
+    border-color: white;
+    border-style: inset inset none none;
+    height: 100%;
+}
+
+.height-200{
+    height: 200px;
+}
+
 .header-container{
     align-items: center;
     background-color: antiquewhite;
@@ -44,4 +90,19 @@ section{
     justify-content: space-between;
     padding: 8px;
     border-bottom: 1px solid black;
+}
+
+
+
+/* flex-flow wrap acomda alancho de la pantalle, generando un quiebre */
+.container-galery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.galery-image{
+    margin: 16px;
+    height: 250px;
+    border: 4px solid #0043CE;
 }
