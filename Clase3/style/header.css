@@ -1,0 +1,56 @@
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0 16px;
+}
+
+/* nav ul li a{
+    color: grey;
+    text-decoration: none;
+} */
+
+header a h1{
+    color: black;
+}
+
+/* aplicacion de pseudoclases */
+
+a:link{
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(2,87,140);
+    font-size: 1.75rem;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+a:visited{
+    color: violet;
+    text-decoration: none;    
+}
+
+a:active{
+    color: #fff;
+}
+
+
+
+
+.header-container{
+    align-items: center;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    top: 0;
+    width: 100%;
+}
