@@ -3,19 +3,41 @@ form{
     padding-top: 2rem;
 }
 
+form button{
+    background-color: #601060;
+    border: none;
+    border-radius: 1.5rem;
+    color: #e5c9e5;
+    padding: 0.5rem; 
+    width: 15rem; 
+}
+
+form button:hover{
+    background-color: #e5c9e5;
+    color: #601060;
+}
+
 input, textarea{
     border-radius: 1.5rem;
     border: 1px solid black;
     display: block;
     font-family: sans-serif;
-    margin-top: 0.5rem;
+    margin: 0.5rem 0;
     padding: 0.25rem;
     width: 15rem;
-
     /* evita que el textarea cambie de tamaño */
     /* resize: none; */
 }
 
 input{
     height: 1.5rem;
+}
+
+input[type="checkbox"]{
+    width: 1.5rem;
+}
+
+.field-condition{
+    display: flex;
+    align-items: center;
 }

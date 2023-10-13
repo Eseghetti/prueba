@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
-    <link rel="stylesheet" href="/Clase3/style/font.css">
+    <link rel="stylesheet" href="../style/font.css">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/nosotros.css">
@@ -35,15 +35,22 @@
         </nav>
     </header>
     <main>
-        <form onsubmit="">
+        <form onsubmit="alert('Mensaje enviado correctamente!!')">
             <label for="name">Nombre y apellido</label>
-            <input id="name" name="name" type="text" placeholder="Jose Perez">
+            <input id="name" name="name" type="text" placeholder="Jose Perez" required>
             <label for="email">Correo electrónico</label>
-            <input id="email" name="email" type="email" placeholder="email@gmail.com">
+            <input id="email" name="email" type="email" placeholder="email@gmail.com" required>
             <label for="subject">Asunto</label>
             <input id="subject" name="subject" type="text" placeholder="Consulta sobre las imagenes">
             <label for="msg">Mensaje</label>
-            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
+            <div class="field-condition">
+                <input id="conditions" name="conditions" type="checkbox" required>
+                <label for="conditions">Acepto términos y condiciones</label>
+            </div>
+            <button type="submit">
+                Enviar
+            </button>
         </form>
     </main>
 </body>
