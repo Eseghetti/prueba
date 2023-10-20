@@ -17,7 +17,7 @@ form button:hover{
     color: #601060;
 }
 
-input, textarea{
+input, textarea, select{
     border-radius: 1.5rem;
     border: 1px solid black;
     display: block;
@@ -33,11 +33,15 @@ input{
     height: 1.5rem;
 }
 
-input[type="checkbox"]{
+fieldset{
+    width: 15rem;
+}
+
+input[type="checkbox"], input[type="radio"]{
     width: 1.5rem;
 }
 
-.field-condition{
+.field-gender{
     display: flex;
     align-items: center;
 }
