@@ -2,6 +2,30 @@ nav ul{
     list-style-type: none;
     display: flex;
     padding: 0;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.sub-menu{
+    align-items: center;
+    background-color: rgb(233, 227, 219);
+    border-bottom: 1px solid black;
+    display: none;
+    padding: 8px;
+    width: 100%;
+}
+
+@media (max-width: 1400px){
+    header nav ul{
+        display: none;
+    }
+    .sub-menu{
+        display: flex;
+    }
+
+    .sub-menu nav ul{
+        justify-content: start;
+    }
 }
 
 nav ul li{
@@ -31,6 +55,12 @@ a:hover{
     cursor:pointer;
 }
 
+@media (max-width:1400px) {
+    a:hover{
+        font-size: 1rem;
+    }
+}
+
 a:visited{
     color: violet;
     text-decoration: none;    
@@ -43,11 +73,13 @@ a:active{
 .header-container{
     align-items: center;
     background-color: antiquewhite;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
+    min-height: 62px;
     position: fixed;
     padding: 8px;
-    border-bottom: 1px solid black;
     top: 0;
     width: 100%;
 }
+

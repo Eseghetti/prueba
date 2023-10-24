@@ -30,3 +30,9 @@
 #clientes p{
     color: #198038;
 }
+
+@media (max-width: 700px) {
+    .img1{
+        order:6;
+    }
+}
