@@ -1,4 +1,4 @@
-nav ul{
+nav ul {
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -6,71 +6,71 @@ nav ul{
     justify-content: end;
 }
 
-.sub-menu{
+.sub-menu {
     align-items: center;
-    background-color: rgb(233, 227, 219);
-    border-bottom: 1px solid black;
+    background-color: rgb(250, 243, 231);
+    border-bottom: 1px solid rgb(69, 66, 66);
     display: none;
     padding: 8px;
     width: 100%;
 }
 
-@media (max-width: 1400px){
-    header nav ul{
+@media (max-width: 1400px) {
+    header nav ul {
         display: none;
     }
-    .sub-menu{
+    .sub-menu {
         display: flex;
     }
-
-    .sub-menu nav ul{
+    .sub-menu nav ul {
         justify-content: start;
     }
 }
 
-nav ul li{
+nav ul li {
+    /* margin: 16px; */
+    /* margin-left: 16px;
+    margin-right: 16px; */
     margin: 0 16px;
 }
 
-/* nav ul li a{
+/* nav ul li a {
     color: grey;
     text-decoration: none;
 } */
 
-header a h1{
+header a h1 {
     color: black;
 }
 
-/* aplicacion de pseudoclases */
-
-a:link{
+a:link {
     color: grey;
     text-decoration: none;
 }
 
-a:hover{
-    color: rgb(2,87,140);
+a:hover {
+    color: rgb(2, 87, 140);
     font-size: 1.75rem;
     text-decoration: underline;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-@media (max-width:1400px) {
-    a:hover{
-        font-size: 1rem;
+@media (max-width: 1400px) {
+    a:hover {
+        font-size: 1.25rem;
     }
 }
 
-a:visited{
-    color: violet;
-    text-decoration: none;    
+a:visited  {
+    color: rgb(114, 12, 114);
+    text-decoration: none;
 }
 
-a:active{
+a:active {
     color: #fff;
 }
 
-.header-container{
+.header-container {
     align-items: center;
     background-color: antiquewhite;
     border-bottom: 1px solid black;
@@ -82,4 +82,3 @@ a:active{
     top: 0;
     width: 100%;
 }
-

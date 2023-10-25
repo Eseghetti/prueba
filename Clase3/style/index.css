@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap');
 
-*{
-    font-family: 'Orbitron', sans-serif;;
+* {
+    font-family: 'Orbitron', sans-serif;
     font-style: italic;
 }
 
-html{
+html {
     font-size: 16px;
 }
 
-body{
+body {
     margin: 0;
-    margin-top: 4.5rem;
+    margin-top: 4.75rem;
 }
 
-h1{
-    font-family: varsity-regular, cursive;
+h1 {
+    font-family: 'varsity', cursive;
     margin: 0;
-    font-weight: 900;   /**no tiene efecto ya que la fuente creada no tiene opciones de peso**/
+    font-weight: 900; /* No tiene efecto alguno porque no està configurado en los fonts faces */
     font-size: 2rem;
 }
 
-h2{
+h2 {
     font-weight: 700;
 }
 
@@ -30,45 +29,47 @@ p, a, li {
     font-weight: 400;
 }
 
-
-p, li{
+p, li {
     font-size: 16px;
 }
 
-
-
-/* rem toma el valor de la raiz, la bese del proyecto */
-a{
+a {
+    /*Con respecto a elemento padre*/
+    /* font-size: 1.5em; */
+    /*Con respecto a la configuracion del root*/
     font-size: 1.5rem;
     text-decoration: none;
 }
 
-@media (max-width:1400px) {
-    a{
+@media (max-width: 1400px) {
+    a {
         font-size: 1rem;
     }
 }
 
-section{
+section {
     padding: 1rem 5%;
 }
 
+/* Helpers */
 
-
-/* helpers */
-
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
-.height-200{
-    height: 200px;
+.width-200 {
+    width: 200px;
 }
 
-.ml-1{
-    margin-left: 16px;
+.ml-1 {
+    margin-left: 0;
 }
+
+.font-fam-orbitron {
+    font-family: Orbitron;
+}
+

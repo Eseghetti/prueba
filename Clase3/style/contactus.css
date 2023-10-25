@@ -1,36 +1,36 @@
-form{
+
+form {
     padding-top: 2rem;
     width: 25%;
 }
 
-@media (min-width: 470px) and (max-width:1000px) {
-    form{
-        width:50%;
+@media (min-width: 470px) and (max-width: 1000px) {
+    form {
+        width: 50%
     }
 }
 
 @media (max-width: 470px) {
-    form{
+    form {
         width: 100%;
     }
 }
 
-
-form button{
-    background-color: #601060;
+form button {
+    background-color: rgb(87, 7, 162);
     border: none;
     border-radius: 1.5rem;
-    color: #e5c9e5;
-    padding: 0.5rem; 
-    width: 100%; 
+    color: rgb(210, 194, 225);
+    padding: 0.5rem;
+    width: 100%;
 }
 
-form button:hover{
-    background-color: #e5c9e5;
-    color: #601060;
+form button:hover {
+    color: rgb(87, 7, 162);
+    background-color: rgb(210, 194, 225);
 }
 
-input, textarea{
+input, textarea {
     box-sizing: border-box;
     border-radius: 1.5rem;
     border: 1px solid black;
@@ -38,24 +38,25 @@ input, textarea{
     font-family: sans-serif;
     margin: 0.5rem 0;
     padding: 0.25rem;
-    width: 100%;
-    /* evita que el textarea cambie de tamaño */
+    width: 100%
+    /* Evitar que el textarea cambie de tamaño */
     /* resize: none; */
 }
 
-input{
+input {
     height: 1.5rem;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     width: 1.5rem;
 }
 
-.form-conteiner{
+.form-container {
     padding: 2rem;
 }
 
-.field-condition{
+.field-conditions {
     display: flex;
     align-items: center;
 }
+
